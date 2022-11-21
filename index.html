@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>¡Piedra, Papel o Tijeras!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>¡Piedra, Papel, o Tijeras!</h1>
+    </header>
+    <div class="tableroPuntuacion">
+        <div id="user-label" class="insignia"> Usuario </div>
+        <div id="computer-label" class="insignia"> Computador</div>
+        <span id="user-score">0</span> - <span id="computer-score">0</span>
+    </div>
+
+<div class="resultado">
+    <p>El papel cubre a la piedra ¡Ganaste!</p>
+</div>
+<div class="choices">
+<div class="choice" id="piedra">
+    <img class="imgChoice" src="img/piedra.svg" alt="piedra">
+</div>
+
+<div class="choice" id="papel">
+    <img class="imgChoice" src="img/papel.svg" alt="papel">
+</div>
+
+<div class="choice" id="tijeras">
+    <img class="imgChoice" src="img/tijeras.svg" alt="tijeras">
+</div>
+</div>
+
+<p id="mensaje-accion">Es tu turno</p>
+
+<footer>
+    <p>Made with love by Roma ♥</p>
+</footer>
+
+</body>
+<script src="./main.js"></script>
+</html>
